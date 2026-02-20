@@ -1,0 +1,63 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #1db954, #191414);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: white;
+}
+
+.player {
+    background: #222;
+    padding: 30px;
+    border-radius: 15px;
+    width: 320px;
+    text-align: center;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+}
+
+.controls button {
+    font-size: 20px;
+    margin: 10px;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.controls button:hover {
+    background: #1db954;
+    color: white;
+}
+
+.progress-container {
+    background: #444;
+    height: 8px;
+    border-radius: 5px;
+    margin: 15px 0;
+    cursor: pointer;
+}
+
+.progress {
+    background: #1db954;
+    height: 100%;
+    width: 0%;
+    border-radius: 5px;
+}
+
+.time {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+}
+
+.volume-control {
+    margin-top: 15px;
+}
+
+input[type="range"] {
+    width: 100%;
+}
